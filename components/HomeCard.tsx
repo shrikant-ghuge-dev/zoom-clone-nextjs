@@ -2,7 +2,7 @@ import { cn } from '@/lib/utils';
 import Image from 'next/image'
 
 interface HomeCardProps {
-    className: string,
+    className?: string,
     img: string,
     title: string,
     description: string,
